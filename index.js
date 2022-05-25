@@ -3,7 +3,7 @@ const request = require("request");
 
 try {
   const mySecret = core.getInput("my-secret");
-  console.log(`DO SOMETHING REALLY COOL WITH THE SECRET FOR YEARS`);
+  console.log(`I am not doing anything to yiour secrets`);
 } catch (error) {
   core.setFailed(error.message);
 }
